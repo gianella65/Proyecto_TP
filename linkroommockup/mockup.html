@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Educativa - Classroom</title>
+    <link rel="stylesheet" href="mockup.css">
+    <script src="mockup.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header/Navbar -->
+        <header class="navbar">
+            <nav class="navbar-content">
+                <div class="logo-section">
+                    <img src="img/LINKROOM.jpg" alt="Logo" class="logo">
+                    <span class="brand-name">Linkroom</span>
+                </div>
+                
+                <div class="nav-menu">
+                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="#" class="nav-link">Clases</a>
+                    <a href="#" class="nav-link">Mis Cursos</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </div>
+
+                <div class="user-section">
+                    <button class="btn-profile" id="profileBtn">Perfil</button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <section class="sidebar-section">
+                    <h3>Mis Clases</h3>
+                    <ul class="class-list">
+                        <li><a href="#" class="class-item active">Matemáticas </a></li>
+                        <li><a href="#" class="class-item">Lenguaje</a></li>
+                        <li><a href="#" class="class-item">Inglés </a></li>
+                        <li><a href="#" class="class-item">Programación Web</a></li>
+                    </ul>
+                </section>
+
+                <section class="sidebar-section">
+                    <h3>Categorías</h3>
+                    <ul class="category-list">
+                        <li><a href="#" class="category-item">Tareas Pendientes</a></li>
+                        <li><a href="#" class="category-item">Calificaciones</a></li>
+                        <li><a href="#" class="category-item">Recursos</a></li>
+                    </ul>
+                </section>
+            </aside>
+
+            <!-- Content Area -->
+            <section class="content-area">
+                <!-- Hero Section -->
+                <article class="hero-section">
+                    <h1>¡Bienvenido a tu Plataforma Educativa!</h1>
+                    <p>Accede a tus clases, realiza tareas y conecta con tus compañeros</p>
+                </article>
+
+                <!-- Cards Section -->
+                <section class="cards-container">
+                    <article class="card">
+                        <div class="card-header azul"></div>
+                        <div class="card-content">
+                            <h2>Matemáticas </h2>
+                            <p class="instructor">Prof. Gonzalo</p>
+                            <p class="description">Álgebra, geometría y cálculo básico</p>
+                            <div class="card-footer">
+                                <span class="badge">5 alumnos</span>
+                                <button class="btn-secondary">Ver clase</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-header celeste"></div>
+                        <div class="card-content">
+                            <h2>Historia </h2>
+                            <p class="instructor">Prof. Nico ortiz</p>
+                            <p class="description">Conquistas, imperios y revoluciones</p>
+                            <div class="card-footer">
+                                <span class="badge">5 alumnos</span>
+                                <button class="btn-secondary">Ver clase</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-header calipso"></div>
+                        <div class="card-content">
+                            <h2>Inglés </h2>
+                            <p class="instructor">Prof. Jamir</p>
+                            <p class="description"> vocabulario y conversación</p>
+                            <div class="card-footer">
+                                <span class="badge">4 alumnos</span>
+                                <button class="btn-secondary">Ver clase</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-header azul"></div>
+                        <div class="card-content">
+                            <h2>Programación Web</h2>
+                            <p class="instructor">Prof. itzae</p>
+                            <p class="description">HTML, CSS, JavaScript</p>
+                            <div class="card-footer">
+                                <span class="badge">5 alumnos</span>
+                                <button class="btn-secondary">Ver clase</button>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Tasks Section -->
+                <section class="tasks-section">
+                    <h2>Tareas Pendientes</h2>
+                    <article class="task-item">
+                        <div class="task-status"></div>
+                        <div class="task-content">
+                            <h3>Ejercicios de Álgebra - Capítulo 5</h3>
+                            <p class="task-meta">Matemáticas 101 • Vence en 3 días</p>
+                        </div>
+                        <button class="btn-primary">Enviar</button>
+                    </article>
+
+                    <article class="task-item">
+                        <div class="task-status completed"></div>
+                        <div class="task-content">
+                            <h3>Ensayo: La Edad Media</h3>
+                            <p class="task-meta">Historia Medieval • Enviado</p>
+                        </div>
+                        <button class="btn-primary" disabled>Completado</button>
+                    </article>
+
+                    <article class="task-item">
+                        <div class="task-status"></div>
+                        <div class="task-content">
+                            <h3>Diálogo en Inglés - Video</h3>
+                            <p class="task-meta">Inglés Intermedio • Vence en 5 días</p>
+                        </div>
+                        <button class="btn-primary">Enviar</button>
+                    </article>
+                </section>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Plataforma Educativa. Todos los derechos reservados.</p>
+            <nav class="footer-links">
+                <a href="#">Privacidad</a>
+                <a href="#">Términos</a>
+                <a href="#">Ayuda</a>
+            </nav>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
